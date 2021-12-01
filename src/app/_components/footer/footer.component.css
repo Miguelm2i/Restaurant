@@ -1,0 +1,9 @@
+mat-toolbar {
+    width:100%;
+    height: 160px;
+    background-color: #720004;
+    color:white;
+}
+mat-toolbar p {
+    margin:0 auto;
+}

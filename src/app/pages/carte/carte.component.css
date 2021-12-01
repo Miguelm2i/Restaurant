@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.carte {
+    background-image: url("../../../assets/img/fond-bois.jpg");
+    padding-bottom:25px;
+}
+h2 {
+    text-align:center;
+    color:white;
+    padding:15px;
+    font-size:40px;
+    font-family: 'Outfit', sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+.flex h2, .flex a {
+    margin:20px;
+}
+.flex a {
+    background-color:white;
+    color:black;
+    border:none;
+    font-size:20px;
+    padding:15px;
+    border-radius:20%/50%;
+    text-decoration:none;
+}
+p {
+    padding:20px;
+    font-size: 24px;
+}
+h3 {
+    font-size: 30px;
+    padding:15px;
+}
+.plat {
+    width:30%;
+    background-color: rgb(255,255,255,0.4);
+    margin-bottom:60px;
+}
+.encart {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.encart div {
+    border-radius: 20%;
+    text-align:center;
+    flex-basis:30%;
+}
+.prix {
+    color:white;
+    background-color: black;
+    padding:20px;
+    border-radius:20%/50%;
+    width:20%;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+a {
+    text-decoration:none;
+    color:black;
+    font-family: 'Outfit', sans-serif;
+}
+button {
+    background-color: black;
+    color:white;
+    border:none;
+    margin-top: 40px;
+    border-radius:50%;
+    display: inline;
+}
+.btn {
+    display:flex;
+    justify-content: space-around;
+}

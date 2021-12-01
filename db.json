@@ -1,0 +1,39 @@
+{
+  "plats": [
+    {
+      "id": 1,
+      "nom": "Hamburger",
+      "description": "Hamburger à la tomme de savoie, steak angus, un régale pour les montagnards",
+      "prix": 12,
+      "image": "hamburger.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "Pates carbonnara",
+      "description": "Crème fraiche, lardon, champignon, et des pâtes fraiches.. Qu'attendez-vous pour déguster cela ?",
+      "prix": 17,
+      "image": "pate-carbo.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "Bavette de boeuf",
+      "description": "Une bonne bavette avec une sauce champignon à en couper le souffle",
+      "prix": 23,
+      "image": "bavette.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "Pizza loosoise",
+      "description": "Une pizza avec du roquefort, des poivrons et un délicieux oeuf coulant",
+      "prix": 10.5,
+      "image": "pizza.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Lasagnes aux légumes",
+      "description": "Des lasagnes maisons préparer par notre chef",
+      "prix": 11,
+      "image": "lasagne.jpg"
+    }
+  ]
+}

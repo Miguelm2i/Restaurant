@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.carte {
+    background-image: url("../../../assets/img/fond-bois.jpg");
+    padding-bottom:25px;
+    height:100%;
+    padding-top:50px;
+}
+form {
+    padding-top:100px;
+    margin: 0 auto;
+    width:30%;
+    text-align:right;
+}
+label {
+    text-align:left;
+    display:block;
+    color:white;
+    font-size:35px;
+    padding:15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+textarea {
+    resize: none;
+    height:200px;
+    background-color: rgb(255,255,255, 0.6);
+}
+input, textarea {
+    width:100%;
+    margin-top:15px;
+    font-family: 'Outfit', sans-serif;
+}
+button {
+    border:none;
+    font-size:20px;
+    margin-right:15px;
+    background-color: #720004;
+    color:white;
+    padding:10px;
+    font-family: 'Outfit', sans-serif;
+}
+input {
+    height:40px;
+    border:none;
+    background-color: rgb(255,255,255, 0.6);
+}
+a {
+    color:white;
+    font-size:35px;
+    padding-left:50px;
+    margin-top:50px;
+}

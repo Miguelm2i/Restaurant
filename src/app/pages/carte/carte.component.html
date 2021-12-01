@@ -1,0 +1,21 @@
+<section class="carte">
+    <div class="flex">
+        <h2>Notre carte</h2>
+        <a routerLink="/ajouter-plat">Ajouter un plat</a>
+    </div>
+    <div class="encart">
+        <div class="plat" *ngFor="let plat of plats">
+            <div class="btn">
+                <button (click)="deletePlat(plat.id)"><mat-icon aria-hidden="false">close</mat-icon></button>
+                <button routerLink="/edit-plat/{{plat.id}}"><mat-icon aria-hidden="false">edit</mat-icon></button>
+            </div>
+            <a routerLink="/plat/{{plat.id}}">
+                <h3>{{plat.nom}}</h3>
+                <img src="../../../assets/img/{{plat.image}}" alt="plat">
+                <p>{{plat.description}}</p>
+                <p class="prix">{{plat.prix}} €</p>
+            </a>
+        </div>
+    </div>
+    
+</section>

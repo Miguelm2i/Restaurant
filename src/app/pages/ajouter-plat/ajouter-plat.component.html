@@ -1,0 +1,19 @@
+<section class="carte">
+    <a routerLink="/carte">Retour</a>
+    <form [formGroup]="platForm" (ngSubmit)="ajouterPlat()">
+        <label>
+            Nom du plat
+            <input type="text" formControlName="nom" required>
+        </label>
+        <label>
+            Prix du plat
+            <input type="number" formControlName="prix" required>
+        </label>
+        <label>
+            Description du plat
+            <textarea type="text" formControlName="description" required></textarea>
+        </label>
+        
+        <button type="submit">Valider</button>
+    </form>
+</section>
